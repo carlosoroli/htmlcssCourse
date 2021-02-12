@@ -1,14 +1,34 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta name="description" content="Curso práctico de HTML y CSS">
-        <meta name="robots" content="index,follow">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html> <!--Indica la versión de html-->
+<html lang="es"> <!--Le dice al navegador el idioma nativo del sitio web-->
+    <head> <!--Contiene etiquetas que no son visibles para el cliente-->
+        <meta name="description" content="Curso práctico de HTML y CSS"> <!-- Agrega la descripción que se verá debajo del título de la página-->
+        <meta name="robots" content="index,follow"> <!--Le permite a los bots de los distintos navegadores indexar nuestra página-->
+        <meta charset="UTF-8"> <!--Permite que el navegador interpetre los caracteres especiales-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Adapta nuestro contenido al tamaño del dispositivo-->
         <title>👨‍💻 Curso de HTML y CSS</title>
         <link rel="stylesheet" href="./style.css">
     </head>
-    <body>
-        <h1>Probando probando</h1>
+    <body> <!--Contiene todo el contenido visible por el cliente-->
+        <!--Existen dos tipos de etiquetas; contenedoras y de contenido-->
+        <head> <!--Etiqueta contenedora-->
+            <nav></nav>
+        </head>
+        <main>
+            <h1>Secciones de la página</h1> <!--Etiqueta de contenido-->
+            <section>
+                <article></article>
+            </section>
+            <div>Etiqueta comodín</div>
+            <ul><!--unorder list-->
+                <li>Gon</li><!--list item-->
+            </ul>
+            <ol><!--order list-->
+                <li>Killua</li>
+            </ol>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor adipisci vel commodi tempore accusantium laborum, nesciunt rem molestiae quas exercitationem quam. Necessitatibus, illum rerum excepturi fugiat alias dolores? Iusto.</p>
+            <a href="#">Link</a> <!--El # sirve para que al hacer click en el link la página no refresque-->
+        </main>
+        <footer></footer>
+
     </body>
 </html>
