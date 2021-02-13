@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Aprendiendo a usar la etiqueta vide">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index,follow">
+        <title>Clase de etiqueta video</title> 
+    </head>
+    <body>
+        <main>
+            <section>
+                <!--La etiqueta video utiliza el atributo 'controls' para agregar la barra multimedia y 'preload' para que el video se carge al abrir la página pero NO lo reproduce en automatico-->
+                <video src="./Assets/Masisa Proceso de Transformación.mp4#t=120,130" controls preload="auto"></video>
+                <!--Al terminar la direccion del video utiliza '#t=' + los numeros escritos en segundos del inicio y pausa del video-->
+            </section>
+            <section>
+                <video width="360px" controls preload="auto">
+                    <source src="./Assets/Masisa Planta Durango.mp4#t=60,65">
+                    <source src="Assets/Masisa Planta Durango.m4v"> 
+                </video>
+            </section>
+        </main>
+    </body>
+</html>
