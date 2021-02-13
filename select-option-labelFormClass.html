@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Select, Option and Datalist</title>
+</head>
+<body>
+    <main>
+        <!-- <span>Available courses</span>
+        <select name="courses" id="courses">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSSS">CSS3</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+        </select> -->
+       
+        <!-- Create an 'input' that let you write to search inside the list -->
+        <input list="courses" placeholder="Search courses">
+        <!-- Create a datalist that will contain all the options available -->
+        <datalist id="courses">
+            <!-- Create the options assigning them a value -->
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Python"></option>
+            <option value="PHP"></option>
+        </datalist>
+    </main>
+</body>
+</html>
