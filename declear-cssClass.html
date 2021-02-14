@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to embed CSS code in HTML</title>
+    <!-- The best practice to embed css code into a html file is using the tag 'link'to add the directory of the CSS file -->
+    <link rel="stylesheet" href="./CSS/embed-cssClass.css">
+
+    <!-- Another way to embed css code is using the tag 'style' inside the 'head' tag, this is useful when using a few lines of code -->
+    <style>
+        h1{
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: saddlebrown;">How to add styles declaring them inside an stye tag placed at the head tag of the html file</h1>
+    <h2 style="color: plum; font-size: 25px;">You can also embed styles using the attribute 'style' inside the open tags</h2>
+
+    <p>This is a styled paragraph by an external CSS file linked to the html file</p>
+
+    <p class="paragraph">This a 'p' tag with a class</p>
+    <div class="justDiv">This is a div</div>
+    <div id="idDiv">This is another div</div>
+</body>
+</html>

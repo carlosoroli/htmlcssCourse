@@ -1,0 +1,23 @@
+p{
+    color: orange;
+    font-size: 30px;
+}
+
+h1{
+    color: palevioletred;
+}
+
+.paragraph{
+    color: greenyellow;
+    font-size: 60px;
+}
+/* Use a '.' before the class name to add styles */
+.justDiv{
+    color: hotpink;
+    font-size: 100px;
+}
+/* Use a '#' before the id name to add styles */
+#idDiv{
+    color: purple;
+    font-size: 400px;
+}

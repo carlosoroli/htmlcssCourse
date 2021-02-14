@@ -1,0 +1,18 @@
+.main-nav{
+    list-style: none;
+    
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{
+    color: red;
+    text-decoration: none;
+}
+.main-nav__item a:hover{
+    color: blue;
+    font-size: 25px;
+}
+.main-nav__item a::after{
+    content: ' | ';
+}
