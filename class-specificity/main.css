@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    /* The only properties that will be used from this selector are the ones that are not overwritten in more important selectors as 'id' or 'class' */
+    font-family:monospace;
+    font-weight: lighter;   /*<------ This one for example */
+    font-size: 100px;
+    color: red;
+}
+#page-title{
+    /* The navegator will use this properties because of 'id selector's importance */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.title{
+    color: greenyellow;
+    margin: 20px 30px;
+}
+#main-nav{
+    margin-left: 40px;
+    list-style: none;
+}
+#main-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#main-nav li a{
+    color: hotpink;
+    text-decoration: none;
+    background-color: cornsilk;
+    padding: 10px;
+    border-radius: 5px;
+}
+#main-nav li a:hover{
+    background-color: lawngreen;
+}
+#main-nav li a:active{
+    color: lightseagreen;
+    font-size: 30px;
+}
+#main-nav .contact{
+    color: red;
+}
