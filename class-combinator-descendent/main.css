@@ -1,0 +1,4 @@
+div p{
+    /* This is the most common combinator and will apply the property to all the elements that are inside the father selector */
+    color: red;
+}

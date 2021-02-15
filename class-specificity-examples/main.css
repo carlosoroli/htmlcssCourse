@@ -37,6 +37,7 @@ h1{
     color: lightseagreen;
     font-size: 30px;
 }
+/* To change the color of the 'contact item'  use two classes as selectors to gain more importance above the '.nav li a' selector  */
 .nav .contact{
     color: red;
 }

@@ -1,0 +1,4 @@
+h2 ~ p{
+    /* This property will be only applied to the </p> that are in the same hierarchy */
+    color: red;
+}

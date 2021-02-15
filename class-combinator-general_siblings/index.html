@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>General siblings</title>
+</head>
+<body>
+    <div>
+        <h2>Hello h2</h2>
+        <p>i am a p</p>
+        <p>i am a p</p>
+        <h2>Hello h2</h2>
+        <h3>Hello h3</h3>
+        <p>i am a p</p>
+            <p>i am another p</p>
+            <div>
+                <!-- This </p> is not a general sibling becasue it's inside another </div> -->
+                <p>Im a p in a div </p>
+            </div>
+
+    </div>
+    <!-- This </p> is neither a general sibling because it's outside of the </div> -->
+    <p>I am a p out of the div</p>
+</body>
+</html>

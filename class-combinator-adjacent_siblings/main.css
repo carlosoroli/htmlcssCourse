@@ -1,0 +1,4 @@
+h2 + p{
+    /* this property will be applied only to the </p> that are adjacent to </h2>. If there is another tag between them, the property won't be applied even if the middle tag is another </p> */
+    color: red;
+}
