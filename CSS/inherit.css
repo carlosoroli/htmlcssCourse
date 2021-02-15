@@ -8,3 +8,4 @@ h1{
     /* with the property 'font-size: inherit' the <h1> will adopt the size of his element father, in this case <html> */
     font-size: inherit;
 }
+/* test git push */
