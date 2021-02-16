@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    /* vw-vh takes the actual size of the window as it's reference */
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+section{
+    width: 80%;
+    min-width: 300px;
+    max-width: 500px;
+    /* 'min-max/height-width determine the meausure limits of the elements when the window is expanded or reduced */
+    /* min-max values are a good option to avoid overflow inside your elements */
+    min-height: 100px;
+    max-height: 200px;
+    background-color: red;
+    margin: 0 auto;
+}

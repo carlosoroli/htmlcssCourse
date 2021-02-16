@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+html{
+    font-size: 62.5%;
+}
+.parent{
+    border: red 2px dotted;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background-color: lightblue;
+    width: 25px;
+    height: 25px;
+}
+#two{
+    background-color: lightgreen;
+    /* with absolute, the element will be over the rest and it's initial position will be taken.Now you can apply the properties top,bottom,left,right  */
+    position: absolute;
+    left: 50px;
+    /* with relative, the element will be over the rest but it's initial position will be respected. */
+}

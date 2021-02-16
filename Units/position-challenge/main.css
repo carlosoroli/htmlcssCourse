@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    position: relative;
+    left: 50px;
+    max-width:200px;
+}
+.container{
+    width: 300px;
+    margin: 100px auto;
+    border: black 3px solid;
+    border-radius: 20px;
+    background-color: rgb(255, 248, 148);
+}
+.title{
+    width: 250px;
+    font-size: 2.4rem;
+    text-align: center;
+    border:black 3px solid;
+    border-radius: 20px;
+    background-color: lightcyan;
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+    
+}
+.text{
+    font-size: 1.6rem;
+    padding: 15px;
+    text-align: center;
+}
