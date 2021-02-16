@@ -1,0 +1,9 @@
+p{
+    font-size: 32px;
+}
+main{
+    background-color: cornflowerblue;
+    /* Absolute units like 'px' causes overflow */
+    width: 1400px;
+    height: 200px;
+}

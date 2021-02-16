@@ -1,0 +1,11 @@
+/* 'em' means element */
+body{
+    font-size: 30px;
+}
+.text-container{
+    /* 'em' will be equivalent to the value of the first father element with a size declared property */
+    font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1.5em;
+}
