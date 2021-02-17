@@ -1,0 +1,26 @@
+.block-element{
+    /* 'display:block;' make elements use all the width of the screen. You can add padding and margin when using this type of display*/
+    background-color: goldenrod;
+    margin: 20px;
+    padding: 20px;
+}
+span{
+    /* 'display:inline' make elements use only the width and height of their content. You can only modify their margin/padding left and right */
+   margin-top: 300px;  /* <------ This is useless*/
+   margin-left: 150px;
+}
+.nav{
+    margin: 20px;
+    padding: 20px;
+    background: plum;
+    text-align: center;
+}
+.nav li{
+    list-style: none;
+    /* 'display:inline-block' make element use only the width and height of their content BUT you can modify their margin,padding,width and height with freely */
+    display: inline-block;
+    background: greenyellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
