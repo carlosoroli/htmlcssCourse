@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+    font-family: monospace;
+}
+.container{
+    border: 0.2rem solid black;
+    font-size: 2.4rem;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* With the property 'align-items:strech' if the elements inside the container hasn't a height value, then they will cover all the height */
+    /* align-items: stretch; */
+    height: 50vh;
+}
+.box{
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    height: 30.0rem;
+    /* width: 30.0rem; */
+    flex-basis: 30rem;
+    flex-grow: 1;
+}
+.box1{
+ background-color: lightblue;
+ /* order: 3; */
+  /* flex-grow: 1;s */
+}
+.box2{
+    /* the elements without a define order will be set at the begining of the left side */
+    background-color: lightcoral;
+    /* order:2; */
+    /* flex-grow: 1; */
+}
+.box3{
+    background-color: lightgoldenrodyellow;
+    /* order:6; */
+}
+.box4{
+    background-color: lightgreen;
+    /* order:5; */
+}
+.box5{
+    background-color: lightpink;
+    /* order:1; */
+}
+.box6{
+    background-color: lightsalmon;
+    /* order:4; */
+}

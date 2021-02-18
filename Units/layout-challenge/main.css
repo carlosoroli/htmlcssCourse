@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: monospace;
+    /* color: white; */
+}
+body{
+    font-size: 2rem;
+}
+.header{
+    background-color: purple;
+    height:10vh;
+    color: white;
+    padding: 30px;
+}
+.header .logo,nav{
+    display: inline-block;
+}
+nav{
+    margin-left: 1100px;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.side-section{
+    height: 85vh;
+    display: inline-block;
+    padding: 20px;
+    background-color:lightyellow;
+}
+.side-section div{
+    margin: 35px;
+    padding: 45px 60px;
+    border-radius: 10px;
+    background-color: plum;
+
+}
+.main-section{
+    display: inline-block;
+    height: 85vh;
+    position: absolute;
+    background-color: lightskyblue;
+}
+.main-section p{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    height: 5vh;
+    background-color: yellow;
+}

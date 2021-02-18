@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row; /* row,column,row-reverse,column-reverse */
+    flex-wrap: wrap-reverse; /* wrap,wrap-reverse */
+    justify-content: flex-end; /* flex-start,center,flex-end,space-around,space-between,space-evenly*/
+}
+.box{
+    width: 10rem;
+    height: 6rem;
+    border: .1rem solid black;
+    border-radius: .5rem;
+
+}
+.box1{
+    background-color: lightpink;
+}
+.box2{
+    background-color: lightsalmon;
+}
+.box3{
+    background-color:lightskyblue;
+}
+.box4{
+    background-color: lightgreen;
+}
+.box5{
+    background-color: lightseagreen;
+
+}
+.box6{
+    background-color: lightgoldenrodyellow;
+}
