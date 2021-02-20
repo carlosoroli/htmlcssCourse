@@ -1,0 +1,16 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.b1{
+    width: 60%;
+}
+.b2{
+    width: 40%;
+}
+.b3,.b4{
+    width: 33%;
+}
+.b5{
+    width: 34%;
+}
