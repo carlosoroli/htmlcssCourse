@@ -1,9 +1,16 @@
 html{
     font-size: 62.5%;
 }
+/* It's a good practice to use rem units for your font-size projects because doing so, the text will increase their size if the user has changed the font's size of his device */
 h1{
     font-size: 2.4rem;
 }
 p{
     font-size: 1.2rem;
+}
+.img-container{
+    width: 300px;
+}
+.img-container img{
+    width: 100%;
 }
